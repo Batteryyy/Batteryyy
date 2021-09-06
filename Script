@@ -34,7 +34,7 @@ SUS.Position = UDim2.new(0.517056227, 0, 0.248524755, 0)
 SUS.Size = UDim2.new(0, 115, 0, 64)
 SUS.Style = Enum.ButtonStyle.RobloxButtonDefault
 SUS.Font = Enum.Font.SourceSans
-SUS.Text = "Soon..."
+SUS.Text = "SUS"
 SUS.TextColor3 = Color3.fromRGB(255, 255, 255)
 SUS.TextSize = 14.000
 SUS.MouseButton1Down:connect(function()
@@ -55,7 +55,7 @@ Gay.Position = UDim2.new(0.0174273346, 0, 0.626150846, 0)
 Gay.Size = UDim2.new(0, 115, 0, 64)
 Gay.Style = Enum.ButtonStyle.RobloxButtonDefault
 Gay.Font = Enum.Font.SourceSans
-Gay.Text = "Soon..."
+Gay.Text = "Gay"
 Gay.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gay.TextSize = 14.000
 Gay.MouseButton1Down:connect(function()
