@@ -1,4 +1,4 @@
--- MADE BY BATTERY
+-- MADE BY BATTERY :)
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local SUS = Instance.new("TextButton")
