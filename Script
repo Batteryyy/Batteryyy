@@ -3,7 +3,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local SUS = Instance.new("TextButton")
 local Gay = Instance.new("TextButton")
-local Button4 = Instance.new("TextButton")
+local Fuck = Instance.new("TextButton")
 local Swastika = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
 local Credits = Instance.new("TextLabel")
@@ -68,17 +68,26 @@ Gay.MouseButton1Down:connect(function()
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
 end)
 
-Button4.Name = "Button4"
-Button4.Parent = Main
-Button4.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Button4.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Button4.Position = UDim2.new(0.513338745, 0, 0.621200323, 0)
-Button4.Size = UDim2.new(0, 115, 0, 64)
-Button4.Style = Enum.ButtonStyle.RobloxButtonDefault
-Button4.Font = Enum.Font.SourceSans
-Button4.Text = "Soon..."
-Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button4.TextSize = 14.000
+Fuck.Name = "Fuck"
+Fuck.Parent = Main
+Fuck.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Fuck.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Fuck.Position = UDim2.new(0.513338745, 0, 0.621200323, 0)
+Fuck.Size = UDim2.new(0, 115, 0, 64)
+Fuck.Style = Enum.ButtonStyle.RobloxButtonDefault
+Fuck.Font = Enum.Font.SourceSans
+Fuck.Text = "Soon..."
+Fuck.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fuck.TextSize = 14.000
+Fuck.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫⚫⚫⚫🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴","All")
+end)
 
 Swastika.Name = "Swastika"
 Swastika.Parent = Main
