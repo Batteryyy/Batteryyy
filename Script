@@ -1,0 +1,144 @@
+-- MADE BY BATTERY
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Button2 = Instance.new("TextButton")
+local Button3 = Instance.new("TextButton")
+local Button4 = Instance.new("TextButton")
+local Swastika = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local OpenMainFRAME = Instance.new("Frame")
+local OpenMain = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Main.Position = UDim2.new(0.400970101, 0, 0.283806294, 0)
+Main.Size = UDim2.new(0, 269, 0, 202)
+Main.Visible = true
+Main.Style = Enum.FrameStyle.RobloxRound
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+Button2.Name = "Button2"
+Button2.Parent = Main
+Button2.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Button2.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Button2.Position = UDim2.new(0.517056227, 0, 0.248524755, 0)
+Button2.Size = UDim2.new(0, 115, 0, 64)
+Button2.Style = Enum.ButtonStyle.RobloxButtonDefault
+Button2.Font = Enum.Font.SourceSans
+Button2.Text = "Soon..."
+Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextSize = 14.000
+
+Button3.Name = "Button3"
+Button3.Parent = Main
+Button3.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Button3.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Button3.Position = UDim2.new(0.0174273346, 0, 0.626150846, 0)
+Button3.Size = UDim2.new(0, 115, 0, 64)
+Button3.Style = Enum.ButtonStyle.RobloxButtonDefault
+Button3.Font = Enum.Font.SourceSans
+Button3.Text = "Soon..."
+Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button3.TextSize = 14.000
+
+Button4.Name = "Button4"
+Button4.Parent = Main
+Button4.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Button4.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Button4.Position = UDim2.new(0.513338745, 0, 0.621200323, 0)
+Button4.Size = UDim2.new(0, 115, 0, 64)
+Button4.Style = Enum.ButtonStyle.RobloxButtonDefault
+Button4.Font = Enum.Font.SourceSans
+Button4.Text = "Soon..."
+Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button4.TextSize = 14.000
+
+Swastika.Name = "Swastika"
+Swastika.Parent = Main
+Swastika.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Swastika.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Swastika.Position = UDim2.new(0.0174273346, 0, 0.248524755, 0)
+Swastika.Size = UDim2.new(0, 113, 0, 64)
+Swastika.Style = Enum.ButtonStyle.RobloxButtonDefault
+Swastika.Font = Enum.Font.SourceSans
+Swastika.Text = "Swastika"
+Swastika.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swastika.TextSize = 14.000
+Swastika.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫⚫⚫⚫🔴","All")
+end)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(200, 0, 0)
+Title.Position = UDim2.new(-0.0261091385, 0, -0.0481923483, 0)
+Title.Size = UDim2.new(0, 267, 0, 28)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Chat GUI"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 30.000
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Credits.BorderColor3 = Color3.fromRGB(200, 0, 0)
+Credits.Position = UDim2.new(-0.0261091478, 0, 0.107718527, 0)
+Credits.Size = UDim2.new(0, 267, 0, 13)
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "By Battery"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(200, 0, 0)
+Close.Position = UDim2.new(0.887535155, 0, -0.048192516, 0)
+Close.Size = UDim2.new(0, 35, 0, 40)
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 52.000
+Close.MouseButton1Down:connect(function()
+	Main.Visible = false
+	OpenMain.Visible = true
+end)
+
+OpenMainFRAME.Name = "OpenMainFRAME"
+OpenMainFRAME.Parent = ScreenGui
+OpenMainFRAME.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+OpenMainFRAME.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenMainFRAME.Position = UDim2.new(0, 0, 0.350584269, 0)
+OpenMainFRAME.Size = UDim2.new(0, 105, 0, 38)
+
+OpenMain.Name = "OpenMain"
+OpenMain.Parent = OpenMainFRAME
+OpenMain.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+OpenMain.BorderColor3 = Color3.fromRGB(200, 0, 0)
+OpenMain.Position = UDim2.new(0, 0, 0.0364042595, 0)
+OpenMain.Size = UDim2.new(0, 105, 0, 36)
+OpenMain.Font = Enum.Font.SciFi
+OpenMain.Text = "Open"
+OpenMain.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenMain.TextSize = 27.000
+OpenMain.Active = true
+OpenMain.MouseButton1Down:connect(function()
+	OpenMain.Visible = false
+	Main.Visible = true
+end)
