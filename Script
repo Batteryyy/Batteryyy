@@ -26,17 +26,26 @@ Main.Visible = false
 Main.Active = true
 Main.Draggable = true
 
-Button2.Name = "Button2"
-Button2.Parent = Main
-Button2.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Button2.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Button2.Position = UDim2.new(0.517056227, 0, 0.248524755, 0)
-Button2.Size = UDim2.new(0, 115, 0, 64)
-Button2.Style = Enum.ButtonStyle.RobloxButtonDefault
-Button2.Font = Enum.Font.SourceSans
-Button2.Text = "Soon..."
-Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button2.TextSize = 14.000
+SUS.Name = "SUS"
+SUS.Parent = Main
+SUS.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+SUS.BorderColor3 = Color3.fromRGB(254, 0, 0)
+SUS.Position = UDim2.new(0.517056227, 0, 0.248524755, 0)
+SUS.Size = UDim2.new(0, 115, 0, 64)
+SUS.Style = Enum.ButtonStyle.RobloxButtonDefault
+SUS.Font = Enum.Font.SourceSans
+SUS.Text = "Soon..."
+SUS.TextColor3 = Color3.fromRGB(255, 255, 255)
+SUS.TextSize = 14.000
+SUS.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
+end)
 
 Button3.Name = "Button3"
 Button3.Parent = Main
