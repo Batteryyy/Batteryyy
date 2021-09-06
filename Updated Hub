@@ -207,3 +207,8 @@ OpenMain.Font = Enum.Font.SciFi
 OpenMain.Text = "Open"
 OpenMain.TextColor3 = Color3.fromRGB(0, 0, 0)
 OpenMain.TextSize = 27.000
+OpenMain.Active = true
+OpenMain.MouseButton1Down:connect(function()
+	OpenMain.Visible = false
+	Main.Visible = true
+end)
