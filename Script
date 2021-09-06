@@ -2,7 +2,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local SUS = Instance.new("TextButton")
-local Button3 = Instance.new("TextButton")
+local Gay = Instance.new("TextButton")
 local Button4 = Instance.new("TextButton")
 local Swastika = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
@@ -47,17 +47,26 @@ SUS.MouseButton1Down:connect(function()
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
 end)
 
-Button3.Name = "Button3"
-Button3.Parent = Main
-Button3.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Button3.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Button3.Position = UDim2.new(0.0174273346, 0, 0.626150846, 0)
-Button3.Size = UDim2.new(0, 115, 0, 64)
-Button3.Style = Enum.ButtonStyle.RobloxButtonDefault
-Button3.Font = Enum.Font.SourceSans
-Button3.Text = "Soon..."
-Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button3.TextSize = 14.000
+Gay.Name = "Gay"
+Gay.Parent = Main
+Gay.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Gay.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Gay.Position = UDim2.new(0.0174273346, 0, 0.626150846, 0)
+Gay.Size = UDim2.new(0, 115, 0, 64)
+Gay.Style = Enum.ButtonStyle.RobloxButtonDefault
+Gay.Font = Enum.Font.SourceSans
+Gay.Text = "Soon..."
+Gay.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gay.TextSize = 14.000
+Gay.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴⚫⚫🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫⚫⚫⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+end)
 
 Button4.Name = "Button4"
 Button4.Parent = Main
