@@ -1,4 +1,4 @@
---MADE BY BATTERY AND DOUBLED
+-- MADE BY BATTERY AND DOUBLED
 local ScreenGui = Instance.new("ScreenGui")
 local OpenMainFRAME = Instance.new("Frame")
 local OpenMain = Instance.new("TextButton")
