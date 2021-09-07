@@ -1,194 +1,29 @@
--- MADE BY BATTERY :)
+--MADE BY BATTERY AND DOUBLED
 local ScreenGui = Instance.new("ScreenGui")
+local OpenMainFRAME = Instance.new("Frame")
+local OpenMain = Instance.new("TextButton")
 local Main = Instance.new("Frame")
-local SUS = Instance.new("TextButton")
-local Gay = Instance.new("TextButton")
-local Fuck = Instance.new("TextButton")
-local Swastika = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
 local Credits = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local Fag = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local SUS = Instance.new("TextButton")
+local Fuck = Instance.new("TextButton")
 local Cum = Instance.new("TextButton")
-local OpenMainFRAME = Instance.new("Frame")
-local OpenMain = Instance.new("TextButton")
+local Swastika = Instance.new("TextButton")
+local Fag = Instance.new("TextButton")
+local Shit = Instance.new("TextButton")
+local Dick = Instance.new("TextButton")
+local Porn = Instance.new("TextButton")
+local Gay = Instance.new("TextButton")
+local Cunt = Instance.new("TextButton")
+local Ass = Instance.new("TextButton")
+local Bruh = Instance.new("TextButton")
+local LOL = Instance.new("TextButton")
 
 --Properties:
 
 ScreenGui.Parent = game.CoreGui
-
-Main.Name = "Main"
-Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Main.Position = UDim2.new(0.400970131, 0, 0.283806294, 0)
-Main.Size = UDim2.new(0, 269, 0, 261)
-Main.Style = Enum.FrameStyle.RobloxRound
-Main.Visible = false
-Main.Active = true
-Main.Draggable = true
-
-SUS.Name = "SUS"
-SUS.Parent = Main
-SUS.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-SUS.BorderColor3 = Color3.fromRGB(254, 0, 0)
-SUS.Position = UDim2.new(0.513338745, 0, 0.129819721, 0)
-SUS.Size = UDim2.new(0, 115, 0, 64)
-SUS.Style = Enum.ButtonStyle.RobloxButtonDefault
-SUS.Font = Enum.Font.SourceSans
-SUS.Text = "SUS"
-SUS.TextColor3 = Color3.fromRGB(255, 255, 255)
-SUS.TextSize = 14.000
-SUS.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫⚫⚫⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
-end)
-
-Gay.Name = "Gay"
-Gay.Parent = Main
-Gay.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Gay.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Gay.Position = UDim2.new(0.0137098627, 0, 0.40672636, 0)
-Gay.Size = UDim2.new(0, 115, 0, 64)
-Gay.Style = Enum.ButtonStyle.RobloxButtonDefault
-Gay.Font = Enum.Font.SourceSans
-Gay.Text = "Gay"
-Gay.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gay.TextSize = 14.000
-Gay.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴⚫⚫🔴🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴⚫⚫🔴⚫⚫⚫⚫🔴🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
-end)
-
-Fuck.Name = "Fuck"
-Fuck.Parent = Main
-Fuck.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Fuck.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Fuck.Position = UDim2.new(0.513338745, 0, 0.405372977, 0)
-Fuck.Size = UDim2.new(0, 115, 0, 64)
-Fuck.Style = Enum.ButtonStyle.RobloxButtonDefault
-Fuck.Font = Enum.Font.SourceSans
-Fuck.Text = "Fuck"
-Fuck.TextColor3 = Color3.fromRGB(255, 255, 255)
-Fuck.TextSize = 14.000
-Fuck.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴⚫🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫⚫🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫🔴⚫🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫⚫🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴⚫🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫⚫⚫⚫🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴","All")
-end)
-
-Swastika.Name = "Swastika"
-Swastika.Parent = Main
-Swastika.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Swastika.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Swastika.Position = UDim2.new(0.0137098627, 0, 0.129819721, 0)
-Swastika.Size = UDim2.new(0, 113, 0, 64)
-Swastika.Style = Enum.ButtonStyle.RobloxButtonDefault
-Swastika.Font = Enum.Font.SourceSans
-Swastika.Text = "Swastika"
-Swastika.TextColor3 = Color3.fromRGB(255, 255, 255)
-Swastika.TextSize = 14.000
-Swastika.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫⚫⚫⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫⚫⚫⚫🔴","All")
-end)
-
-Title.Name = "Title"
-Title.Parent = Main
-Title.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
-Title.BorderColor3 = Color3.fromRGB(200, 0, 0)
-Title.Position = UDim2.new(-0.0261091385, 0, -0.0481923483, 0)
-Title.Size = UDim2.new(0, 267, 0, 28)
-Title.Font = Enum.Font.SciFi
-Title.Text = "Chat GUI"
-Title.TextColor3 = Color3.fromRGB(0, 0, 0)
-Title.TextSize = 27.000
-
-Credits.Name = "Credits"
-Credits.Parent = Main
-Credits.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
-Credits.BorderColor3 = Color3.fromRGB(200, 0, 0)
-Credits.Position = UDim2.new(-0.0261091478, 0, 0.0573588163, 0)
-Credits.Size = UDim2.new(0, 267, 0, 13)
-Credits.Font = Enum.Font.SciFi
-Credits.Text = "By Battery"
-Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
-Credits.TextSize = 14.000
-
-Close.Name = "Close"
-Close.Parent = Main
-Close.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
-Close.BorderColor3 = Color3.fromRGB(200, 0, 0)
-Close.Position = UDim2.new(0.875156999, 0, -0.04984257, 0)
-Close.Size = UDim2.new(0, 39, 0, 39)
-Close.Font = Enum.Font.SourceSansBold
-Close.Text = "X"
-Close.TextColor3 = Color3.fromRGB(0, 0, 0)
-Close.TextSize = 52.000
-Close.MouseButton1Down:connect(function()
-	Main.Visible = false
-	OpenMain.Visible = true
-end)
-
-Fag.Name = "Fag"
-Fag.Parent = Main
-Fag.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Fag.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Fag.Position = UDim2.new(0.0137098627, 0, 0.705287516, 0)
-Fag.Size = UDim2.new(0, 115, 0, 64)
-Fag.Style = Enum.ButtonStyle.RobloxButtonDefault
-Fag.Font = Enum.Font.SourceSans
-Fag.Text = "Fag"
-Fag.TextColor3 = Color3.fromRGB(255, 255, 255)
-Fag.TextSize = 14.000
-Fag.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫⚫🔴🔴⚫⚫⚫⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
-end)
-
-Cum.Name = "Cum"
-Cum.Parent = Main
-Cum.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
-Cum.BorderColor3 = Color3.fromRGB(254, 0, 0)
-Cum.Position = UDim2.new(0.513338745, 0, 0.703934073, 0)
-Cum.Size = UDim2.new(0, 115, 0, 64)
-Cum.Style = Enum.ButtonStyle.RobloxButtonDefault
-Cum.Font = Enum.Font.SourceSans
-Cum.Text = "Cum"
-Cum.TextColor3 = Color3.fromRGB(255, 255, 255)
-Cum.TextSize = 14.000
-Cum.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫🔴🔴🔴⚫🔴","All")
-end)
 
 OpenMainFRAME.Name = "OpenMainFRAME"
 OpenMainFRAME.Parent = ScreenGui
@@ -211,4 +46,332 @@ OpenMain.Active = true
 OpenMain.MouseButton1Down:connect(function()
 	OpenMain.Visible = false
 	Main.Visible = true
+end)
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Main.Position = UDim2.new(0.400970131, 0, 0.283806324, 0)
+Main.Size = UDim2.new(0, 290, 0, 273)
+Main.Style = Enum.FrameStyle.RobloxRound
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(200, 0, 0)
+Title.Position = UDim2.new(-0.0255103819, 0, -0.0673699602, 0)
+Title.Size = UDim2.new(0, 288, 0, 30)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Chat GUI"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 34.000
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Credits.BorderColor3 = Color3.fromRGB(200, 0, 0)
+Credits.Position = UDim2.new(-0.0250000004, 0, 0.0549999997, 0)
+Credits.Size = UDim2.new(0, 288, 0, 19)
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "By Battery"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 15.000
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(200, 0, 0)
+Close.Position = UDim2.new(0.867279053, 0, -0.0568193942, 0)
+Close.Size = UDim2.new(0, 42, 0, 46)
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 45.000
+Close.MouseButton1Down:connect(function()
+	Main.Visible = false
+	OpenMain.Visible = true
+end)
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(200, 0, 0)
+ScrollingFrame.Position = UDim2.new(-0.0234682281, 0, 0.139142945, 0)
+ScrollingFrame.Size = UDim2.new(0, 288, 0, 229)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 212.099976)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2.29999995, 0)
+ScrollingFrame.ScrollBarThickness = 15
+
+SUS.Name = "SUS"
+SUS.Parent = ScrollingFrame
+SUS.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+SUS.BorderColor3 = Color3.fromRGB(254, 0, 0)
+SUS.Position = UDim2.new(0.0219456013, 0, 0.680793345, 0)
+SUS.Size = UDim2.new(0, 122, 0, 74)
+SUS.Style = Enum.ButtonStyle.RobloxButtonDefault
+SUS.Font = Enum.Font.SourceSans
+SUS.Text = "SUS"
+SUS.TextColor3 = Color3.fromRGB(255, 255, 255)
+SUS.TextSize = 14.000
+SUS.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
+end)
+
+Fuck.Name = "Fuck"
+Fuck.Parent = ScrollingFrame
+Fuck.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Fuck.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Fuck.Position = UDim2.new(0.48847878, 0, 0.0135291517, 0)
+Fuck.Size = UDim2.new(0, 122, 0, 74)
+Fuck.Style = Enum.ButtonStyle.RobloxButtonDefault
+Fuck.Font = Enum.Font.SourceSans
+Fuck.Text = "Fuck"
+Fuck.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fuck.TextSize = 14.000
+Fuck.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫⚫⚫⚫🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴","All")
+end)
+
+Cum.Name = "Cum"
+Cum.Parent = ScrollingFrame
+Cum.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Cum.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Cum.Position = UDim2.new(0.0232009944, 0, 0.548885107, 0)
+Cum.Size = UDim2.new(0, 122, 0, 74)
+Cum.Style = Enum.ButtonStyle.RobloxButtonDefault
+Cum.Font = Enum.Font.SourceSans
+Cum.Text = "Cum"
+Cum.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cum.TextSize = 14.000
+Cum.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫🔴🔴🔴⚫🔴","All")
+end)
+
+Swastika.Name = "Swastika"
+Swastika.Parent = ScrollingFrame
+Swastika.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Swastika.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Swastika.Position = UDim2.new(0.0232009888, 0, 0.013537189, 0)
+Swastika.Size = UDim2.new(0, 122, 0, 74)
+Swastika.Style = Enum.ButtonStyle.RobloxButtonDefault
+Swastika.Font = Enum.Font.SourceSans
+Swastika.Text = "Swastika"
+Swastika.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swastika.TextSize = 14.000
+Swastika.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫⚫⚫⚫🔴","All")
+end)
+
+Fag.Name = "Fag"
+Fag.Parent = ScrollingFrame
+Fag.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Fag.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Fag.Position = UDim2.new(0.019728763, 0, 0.413433641, 0)
+Fag.Size = UDim2.new(0, 122, 0, 74)
+Fag.Style = Enum.ButtonStyle.RobloxButtonDefault
+Fag.Font = Enum.Font.SourceSans
+Fag.Text = "Fag"
+Fag.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fag.TextSize = 14.000
+Fag.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫⚫🔴🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+end)
+
+Shit.Name = "Shit"
+Shit.Parent = ScrollingFrame
+Shit.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Shit.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Shit.Position = UDim2.new(0.48847878, 0, 0.144601002, 0)
+Shit.Size = UDim2.new(0, 122, 0, 74)
+Shit.Style = Enum.ButtonStyle.RobloxButtonDefault
+Shit.Font = Enum.Font.SourceSans
+Shit.Text = "Shit"
+Shit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shit.TextSize = 14.000
+Shit.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴🔴🔴🔴⚫⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫🔴🔴⚫🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴🔴🔴","All")
+end)
+
+Dick.Name = "Dick"
+Dick.Parent = ScrollingFrame
+Dick.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Dick.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Dick.Position = UDim2.new(0.0232009888, 0, 0.284830332, 0)
+Dick.Size = UDim2.new(0, 122, 0, 74)
+Dick.Style = Enum.ButtonStyle.RobloxButtonDefault
+Dick.Font = Enum.Font.SourceSans
+Dick.Text = "Dick"
+Dick.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dick.TextSize = 14.000
+Dick.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴🔴🔴🔴⚫⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴⚫⚫⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴🔴🔴⚫⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴🔴⚫🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴","All")
+end)
+
+Porn.Name = "Porn"
+Porn.Parent = ScrollingFrame
+Porn.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Porn.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Porn.Position = UDim2.new(0.48847878, 0, 0.284830332, 0)
+Porn.Size = UDim2.new(0, 122, 0, 74)
+Porn.Style = Enum.ButtonStyle.RobloxButtonDefault
+Porn.Font = Enum.Font.SourceSans
+Porn.Text = "Porn"
+Porn.TextColor3 = Color3.fromRGB(255, 255, 255)
+Porn.TextSize = 14.000
+Porn.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫⚫⚫⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫🔴🔴⚫🔴⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴🔴⚫🔴⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴🔴🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫🔴⚫","All")
+end)
+
+Gay.Name = "Gay"
+Gay.Parent = ScrollingFrame
+Gay.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Gay.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Gay.Position = UDim2.new(0.487223387, 0, 0.548128843, 0)
+Gay.Size = UDim2.new(0, 122, 0, 74)
+Gay.Style = Enum.ButtonStyle.RobloxButtonDefault
+Gay.Font = Enum.Font.SourceSans
+Gay.Text = "Gay"
+Gay.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gay.TextSize = 14.000
+Gay.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴🔴🔴🔴🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴⚫⚫🔴🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫⚫⚫⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴","All")
+end)
+
+Cunt.Name = "Cunt"
+Cunt.Parent = ScrollingFrame
+Cunt.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Cunt.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Cunt.Position = UDim2.new(0.0219455939, 0, 0.144083723, 0)
+Cunt.Size = UDim2.new(0, 122, 0, 74)
+Cunt.Style = Enum.ButtonStyle.RobloxButtonDefault
+Cunt.Font = Enum.Font.SourceSans
+Cunt.Text = "Cunt"
+Cunt.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cunt.TextSize = 14.000
+Cunt.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫⚫⚫🔴⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫🔴⚫🔴🔴⚫🔴🔴","All")
+end)
+
+Ass.Name = "Ass"
+Ass.Parent = ScrollingFrame
+Ass.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Ass.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Ass.Position = UDim2.new(0.48847878, 0, 0.413433641, 0)
+Ass.Size = UDim2.new(0, 122, 0, 74)
+Ass.Style = Enum.ButtonStyle.RobloxButtonDefault
+Ass.Font = Enum.Font.SourceSans
+Ass.Text = "Ass"
+Ass.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ass.TextSize = 14.000
+Ass.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴⚫⚫🔴🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴🔴🔴🔴⚫🔴🔴🔴🔴⚫🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
+end)
+
+Bruh.Name = "Bruh"
+Bruh.Parent = ScrollingFrame
+Bruh.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+Bruh.BorderColor3 = Color3.fromRGB(254, 0, 0)
+Bruh.Position = UDim2.new(0.487223387, 0, 0.680793345, 0)
+Bruh.Size = UDim2.new(0, 122, 0, 74)
+Bruh.Style = Enum.ButtonStyle.RobloxButtonDefault
+Bruh.Font = Enum.Font.SourceSans
+Bruh.Text = "Bruh"
+Bruh.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bruh.TextSize = 14.000
+Bruh.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫⚫⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫⚫⚫🔴🔴⚫⚫⚫🔴⚫🔴🔴⚫🔴⚫⚫⚫⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴⚫","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("⚫⚫⚫⚫🔴⚫🔴🔴🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫","All")
+end)
+
+LOL.Name = "LOL"
+LOL.Parent = ScrollingFrame
+LOL.BackgroundColor3 = Color3.fromRGB(254, 0, 0)
+LOL.BorderColor3 = Color3.fromRGB(254, 0, 0)
+LOL.Position = UDim2.new(0.0184733793, 0, 0.812979996, 0)
+LOL.Size = UDim2.new(0, 122, 0, 74)
+LOL.Style = Enum.ButtonStyle.RobloxButtonDefault
+LOL.Font = Enum.Font.SourceSans
+LOL.Text = "LOL"
+LOL.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOL.TextSize = 14.000
+LOL.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴🔴🔴🔴🔴🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫⚫⚫⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴🔴🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫⚫⚫⚫🔴","All")
 end)
