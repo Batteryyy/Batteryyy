@@ -1,4 +1,4 @@
--- MADE BY BATTERY AND DOUBLED
+-- MADE BY BATTERY AND DOUBLED 
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This Emoji Hub script was made by Battery!","All")
 
 wait(0.3)
