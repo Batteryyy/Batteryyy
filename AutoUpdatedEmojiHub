@@ -1,9 +1,10 @@
 -- MADE BY BATTERY AND DOUBLED 
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This Emoji Hub script was made by Battery!","All")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This Bypass hub script was made by Battery!","All")
 
-wait(0.3)
+wait(0.1)
 
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Thanks for using!","All")
+
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
